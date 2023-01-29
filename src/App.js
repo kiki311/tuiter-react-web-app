@@ -11,7 +11,7 @@ function App() {
         </h1>
         <h2>
           This is branch A2
-          
+
         </h2>
         <a
           className="App-link"
