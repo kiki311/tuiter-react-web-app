@@ -128,3 +128,17 @@ p#id-selector-2 {
 
 
 /*3.6.1 Styling relative position (2pts)*/
+.pos-relative-nudge-up-right {
+   position: relative;
+   bottom: 30px;
+   left: 30px;
+}
+.pos-relative-nudge-down-right {
+   position: relative;
+   top: 20px;
+   left: 20px;
+}
+.pos-relative {
+   position: relative;
+}
+
