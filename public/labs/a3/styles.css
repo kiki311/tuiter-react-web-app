@@ -379,11 +379,143 @@ p#id-selector-2 {
 
 
 /*5.7.1 Aligning flex elements horizontally*/
+.flex-container-1 {
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+
+}
+.flex-container-2 {
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    display: flex;
+    justify-content: end;
+
+}
+
+.flex-container-3{
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex-container-4{
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.flex-box {
+    border: 5px gray solid;
+    margin: 10px;
+    padding: 10px;
+}
+.flex-box-1 {
+    background-color: yellow;
+}
+.flex-box-2 {
+    background-color: blue;
+    color: white;
+}
+.flex-box-3 {
+    background-color: red;
+    color: white;
+}
+
+
 
 /*5.7.2 Aligning flex elements vertically*/
+.flex-container-5 {
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.flex-container-6{
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.flex-container-7{
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    display: flex;
+    /*justify-content: space-evenly;*/
+    /*align-items: center;*/
+}
+
+
+
 
 /*5.8 Media queries (5pts)*/
 
+
+@media (min-width: 0px) and (max-width: 300px) {
+    body {
+        background-color: yellow;
+    }
+    .media-query {
+        background-color: red;
+        color: white;
+    }
+}
+@media (min-width: 300px) and (max-width: 600px) {
+    body {
+        background-color: blue;
+        color: white;
+    }
+    .media-query {
+        background-color: yellow;
+        color: black;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 300px) {
+    body {
+        background-color: yellow;
+    }
+    .media-query {
+        background-color: red;
+        color: white;
+    }
+}
+@media (min-width: 300px) and (max-width: 600px) {
+    body {
+        background-color: blue;
+        color: white;
+    }
+    .media-query {
+        background-color: yellow;
+        color: black;
+    }
+}
+@media (min-width: 600px) and (max-width: 900px) {
+    body {
+        background-color: red;
+        color: white;
+    }
+    .media-query {
+        background-color: blue;
+        color: white;
+    }
+}
 
 
 
