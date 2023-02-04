@@ -328,6 +328,9 @@ p#id-selector-2 {
 /*5.6.1 Key frame animations*/
 
 .animation-keyframes {
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
     position: relative;
     top: 0px;
     animation-duration: 7s;
