@@ -87,7 +87,7 @@ a{
     margin-left:12px;
 }*/
 /* Center (main content) */
-.wd-search-icon{
+/*.wd-search-icon{
     position:relative;
     top:30px;
     left:10px;
@@ -135,7 +135,7 @@ a{
     color:rgb(110,118,125);
 }
 
-/* Left (nav) */
+*//* Left (nav) *//*
 .wd-buttons{
     border-radius: 30px 30px 30px 30px;
     margin-top:5px;
@@ -147,7 +147,7 @@ a{
 
 .list-group-margin{
     margin-top: 17px;
-}
+}*/
 
 .wd-list-item-bg-color{
     background-color: black;
