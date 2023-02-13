@@ -43,10 +43,33 @@ input::placeholder {
     padding-left: 16px;
 }
 
-#wd-Aopen2023-title{
+.wd-Aopen2023-title{
     padding-left: 16px;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 80px;
+}
+
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+/* Bottom left text */
+.bottom-left {
+    position: absolute;
+    bottom: 88px;
+    left: 26px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.bottom-left1 {
+    position: absolute;
+    bottom: 18px;
+    left: 26px;
+    font-weight: bold;
+    font-size: 40px;
 }
 .wd-topic{
     color:rgb(110,118,125);
