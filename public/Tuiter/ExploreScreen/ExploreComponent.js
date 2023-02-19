@@ -20,7 +20,7 @@ const ExploreComponent = () => {
           <!-- nav bar using tabs -->
             <ul class ="nav nav-tabs wd-nav-tabs-margin">
                 <li class="nav-item" >
-                    <a class="nav-link active" href="#">For you</a>
+                    <a class="nav-link active" href="#" >For you</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link wd-list-item-bg-color" href="#">Trending</a>

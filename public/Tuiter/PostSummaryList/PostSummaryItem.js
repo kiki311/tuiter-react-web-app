@@ -13,7 +13,7 @@ const PostSummaryItem = (post) =>{
                         <div class="wd-tweets-count">${post.tweets}</div>
                     </div>
                     <div class="col-2">
-                        <img src = "${post.image}" alt = "${post.username} LOGO" class="wd-tweet-pictures img-fluid ">
+                         <img src = "${post.image}" alt = "${post.username} LOGO" class="wd-tweet-pictures img-fluid ">
                     </div>
                 </div>
             </li>
