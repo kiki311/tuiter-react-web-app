@@ -190,6 +190,41 @@ console.log(oddNumbers);
 
 // 2.8 Template Strings
 
+const five = 2 + 3;
+const result1 = "2 + 3 = " + five;
+console.log(result1);
 
+const result2 = `2 + 3 = ${2 + 3}`;
+console.log(result2);
+
+const username = "alice";
+const greeting1 = `Welcome home ${username}`;
+console.log(greeting1);
+
+loggedIn = false;
+const greeting2 = `Logged in: ${loggedIn ? "Yes" : "No"}`;
+console.log(greeting2)
+
+// 2.10 Executing jQuery scripts
+
+
+const init = () => {
+    console.log('Hello world from jQuery');
+    /* do the rest of the lab work here */
+
+    // 2.11 Binding to the DOM
+
+    const bindByld = $(`#bind-by-id`);
+    const bindByClass = $(`.bind-by-class`);
+    console.log(`Binding to DOM`);
+    console.log(bindByld);
+    console.log(bindByClass);
+
+    const changeStyle = $('#change-style');
+    const changeStyle2 = $('.change-style');
+    changeStyle.css('color', 'red');
+    changeStyle2.css('color', 'blue');
+}
+$(init);
 
 

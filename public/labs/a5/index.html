@@ -16,26 +16,45 @@
 
 <!--2.2 Loading External JavaScript Files-->
 <!--<h2>Embedded script tag</h2>-->
-
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <!-- paste the rest of the exercises here before the script tag shown here below -->
 <script src="index.js"></script>
 
 <!--2.8.1 Writing to the DOM-->
 
-<h2> Writing to the DOM</h2>
+<h2>Writing to the DOM</h2>
+<script>
+    document.write('Welcome to JavaScript!')
+</script>
+
 <h2>Calculating an HTML string</h2>
 <script>
     const renderTodos = (todos) => `
-            <ul>
-                ${todos.map(todo => `<li>${todo}</li>`
+    <ul>
+      ${todos.map(todo =>
+        `<li>${todo}</li>`
     ).join('')}
-            </ul>`;
+    </ul>`;
     const todos = ['Pickup kids', 'Feed dogs']
     let html = renderTodos(todos);
     document.write(html);
 </script>
+<!--2.11 Binding to the DOM-->
 
+<h2 id="bind-by-id">
+    Binding by ID</h2>
+<h3 class="bind-by-class">
+    Binding 1 by Class</h3>
+<h3 class="bind-by-class">
+    Binding 2 by Class</h3>
 
+<!--2.12 Changing style programmatically-->
+<h2 id="change-style">
+    Change style</h2>
+<h3 class="change-style">
+    Change style 1</h3>
+<h3 class="change-style">
+    Change style 2</h3>
 
 
 
