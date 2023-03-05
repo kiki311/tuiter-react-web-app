@@ -13,28 +13,15 @@
 
 // 2.8 Navigating with links in SPAs
 
-// import {Link}
-//     from "react-router-dom";
-//
-// function Tuiter() {
-//     return(
-//         <div>
-//             <Link to="/">Lab</Link> |
-//             <Link to="/hello">Hello</Link> |
-//             <Link to="/tuiter">Tuiter</Link>
-//             <h1>Tuiter</h1>
-//         </div>
-//     )
-// }
-// export default Tuiter
+import {Link}
+    from "react-router-dom";
 
-// 2.9 Implementing a Navigation component
-
-import Nav from "../nav";
 function Tuiter() {
-    return (
+    return(
         <div>
-            <Nav/>
+            <Link to="/">Lab</Link> |
+            <Link to="/hello">Hello</Link> |
+            <Link to="/tuiter">Tuiter</Link>
             <h1>Tuiter</h1>
         </div>
     )

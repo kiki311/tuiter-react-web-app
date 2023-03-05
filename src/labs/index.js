@@ -23,17 +23,4 @@
 // }
 // export default Labs;
 
-// 2.9 Implementing a Navigation component
-
-import Assignment6 from "./a6";
-import Nav from "../nav";
-function Labs() {
-    return (
-        <div>
-            <Nav/>
-            <Assignment6/>
-        </div>
-    );
-}
-export default Labs;
 
