@@ -87,7 +87,7 @@ function App() {
         //                    element={<Tuiter/>}/>
         //         </Routes>
         //     </div>
-        // </BrowserRouter>
+//         </BrowserRouter>
         <BrowserRouter>
             <div className="container">
                 <Routes>
