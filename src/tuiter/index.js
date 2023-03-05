@@ -1,27 +1,27 @@
-//
-// 2.4 Breaking out assignments into separate components
 
+// 2.6 Creating a Tuiter placeholder component
 
-// function Assignment6() {
-//     return (
+// function Tuiter() {
+//     return(
 //         <div>
-//             <h1>Assignment 6</h1>
+//             <h1>Tuiter</h1>
 //         </div>
 //     );
 // }
-// export default Assignment6;
+// export default Tuiter
+
 
 import {Link}
     from "react-router-dom";
 
-function Assignment6() {
+function Tuiter() {
     return(
         <div>
             <Link to="/">Lab</Link> |
             <Link to="/hello">Hello</Link> |
             <Link to="/tuiter">Tuiter</Link>
-            <h1>Assignment 6</h1>
+            <h1>Tuiter</h1>
         </div>
     )
 }
-export default Assignment6;
+export default Tuiter
