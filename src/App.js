@@ -1,29 +1,99 @@
-import logo from './logo.svg';
-import './App.css';
+// 2.1 Implementing Single Page Applications
+
+// function App() {
+//     return (
+//         <h1>Hello World!</h1>
+//     );
+// }
+// export default App;
+
+//
+// 2.3 Implementing the Labs component
+
+// import Labs from "./labs";
+// function App() {
+//     return (
+//         <div className="container">
+//             <h1>Hello World!</h1>
+//             <Labs/>
+//         </div>
+//     );
+// }
+// export default App;
+
+// 2.5 Breaking out Hello World into a separate component
+// import Labs from "./labs";
+// import HelloWorld from "./labs/a6/hello-world";
+//
+// function App() {
+//     return (
+//         <div className="container">
+//             <HelloWorld/>
+//             <Labs/>
+//         </div>
+//     );
+// }
+// export default App;
+
+// 2.6 Creating a Tuiter placeholder component
+
+// import Labs from "./labs";
+// import HelloWorld from "./labs/a6/hello-world";
+// import Tuiter from "./tuiter";
+// // 2.6 Creating a Tuiter placeholder component
+//
+// function App() {
+//     return (
+//         <div className="container">
+//             <HelloWorld/>
+//             <Labs/>
+//             <Tuiter/>
+//         </div>
+//     );
+// }
+// export default App;
+
+// 2.7 Implementing navigation in Single Page Applications
+
+
+import Labs from "./labs";
+import HelloWorld from "./labs/a6/hello-world";
+import Tuiter from "./tuiter";
+import {BrowserRouter} from "react-router-dom";
+import {Routes, Route} from "react-router";
+
+// function App() {
+//     return (
+//         <BrowserRouter>
+//             <div className="container">
+//                 <Routes>
+//                     <Route path="/labs"
+//                            element={<Labs/>}/>
+//                     <Route path="/hello"
+//                            element={<HelloWorld/>}/>
+//                     <Route path="/tuiter"
+//                            element={<Tuiter/>}/>
+//                 </Routes>
+//             </div>
+//         </BrowserRouter>
+//     );
+// }
+// export default App;
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1>
-          Welcome to Web Development Fall 2022
-        </h1>
-        <h2>
-          This is branch A2
-
-        </h2>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <BrowserRouter>
+            <div className="container">
+                <Routes>
+                    <Route index
+                           element={<Labs/>}/>
+                    <Route path="/hello"
+                           element={<HelloWorld/>}/>
+                    <Route path="/tuiter"
+                           element={<Tuiter/>}/>
+                </Routes>
+            </div>
+        </BrowserRouter>
+    );
 }
-
 export default App;

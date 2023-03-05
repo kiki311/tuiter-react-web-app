@@ -325,10 +325,18 @@ const init = () => {
     showBtn.click(showHandler);
     // 2.24 Creating a TODO List
 
+    const Question = () => {
+        let A = {
+            C: 'F',
+            D: 'G' }
+        let B = {
+            D: 'H',
+            E: 'I',
+            ...A, }
+        A= { ...B,
+            D: 'J',
+                E: 'K' }
 
-
-
-}
-$(init);
-
-
+        console.log(A.C);
+        console.log(B.D);
+        console.log(A.E);
