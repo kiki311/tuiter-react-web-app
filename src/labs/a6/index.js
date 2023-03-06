@@ -42,7 +42,8 @@ function Assignment6() {
         <div>
             <Link to="/">Lab</Link> |
             <Link to="/hello">Hello</Link> |
-            <Link to="/tuiter">Tuiter</Link>
+            <Link to="/tuiter">Tuiter</Link>|
+
             <h1>Assignment 6</h1>
             <ConditionalOutput/>
             <TodoList/>
