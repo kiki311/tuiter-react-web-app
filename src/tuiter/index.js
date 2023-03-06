@@ -82,7 +82,6 @@ import HomeComponent from "./home";
 
 
 
-
 function Tuiter() {
     return (
         <div className="row mt-2">

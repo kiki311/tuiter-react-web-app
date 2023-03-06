@@ -77,7 +77,7 @@ const PostItem = (prop) => {
 const Col2Item = (prop) => {
     return (
         <div className="col-2">
-            <img src = {require(""+prop.post.avatar).default} alt = {prop.post.username}  className="img-fluid" style ={userAvatar}/>
+            <img src={`/images/${prop.post.avatar}`} alt = {prop.post.username}  className="img-fluid" style ={userAvatar}/>
         </div>
     )
 }
@@ -99,7 +99,7 @@ const Col10Item = (prop) => {
             <ul className="list-group" style = {listGroupMargin}>
                 <li className="list-group-item" style = {listItemBgColor}>
                     <div>
-                        <img src={require("" + prop.post.image).default} className="img-fluid" style={imageBorderRadius}/>
+                        <img src={`/images/${prop.post.image}`}  alt={""} className="img-fluid" style={imageBorderRadius}></img>
                     </div>
                 </li>
                 <li className="list-group-item" style = {listItemBgColor} >

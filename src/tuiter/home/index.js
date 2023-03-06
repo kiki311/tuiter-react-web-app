@@ -1,5 +1,6 @@
 import PostList from "./PostList.js";
 
+
 function HomeScreen () {
     return(
         <div className="row">
@@ -7,7 +8,7 @@ function HomeScreen () {
 
             </div>
 
-            <div className="col-xxl-12 col-xl-8 col-lg-8 col-md-10 col-sm-11 ">
+            <div className="col-xxl-12 col-xl-10 col-lg-8 col-md-10 col-sm-11 ">
                 <PostList />
             </div>
 
@@ -19,3 +20,4 @@ function HomeScreen () {
     );
 };
 export default HomeScreen;
+
